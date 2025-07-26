@@ -2,7 +2,7 @@ import "./App.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import RegisterTeacher from "./pages/Registration.jsx";
 
-// import Login from "./components/Login.jsx";
+import Login from "./pages/Login.jsx";
 // import Home from "./components/Home.jsx";
 // import PeerAdvice from "./pages/PeerAdvice.jsx";
 // import ChatWindow from "./pages/ChatWindow.jsx";
@@ -28,7 +28,7 @@ function App() {
 			<Routes>
 				{/* user routes */}
 				<Route path="/" element={<Navigate to="/register" replace />} />
-				{/* <Route path="/login" element={<Login />} /> */}
+				<Route path="/login" element={<Login />} />
 				<Route path="/register" element={<RegisterTeacher />} />
 				{/* <Route path="/home" element={<Home />} />
         <Route path="/peer-advice" element={<PeerAdvice />} />
