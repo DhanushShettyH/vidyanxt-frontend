@@ -1,4 +1,3 @@
-import PWABadge from "./PWABadge.jsx";
 import "./App.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import RegisterTeacher from "./pages/Registration.jsx";

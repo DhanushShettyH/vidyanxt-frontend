@@ -123,7 +123,7 @@ export default function RegisterTeacher() {
 	}
 
 	return (
-		<div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-emerald-50 flex items-center justify-center py-12 px-6 lg:px-8">
+		<div className="min-h-screen  bg-gradient-to-br from-indigo-50 via-white to-emerald-50 flex items-center justify-center py-12 px-6 lg:px-8">
 			<div className="max-w-2xl w-full">
 				{/* Header */}
 				<div className="text-center mb-8">
